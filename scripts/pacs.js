@@ -13,7 +13,7 @@ export const DisplayPacs = async () => {
         return `
             <section class="pac">
                 <header class="pac_name">
-                    <h1>${pac.registeredName}</h1>
+                    <h2>${pac.registeredName}</h2>
                 </header>
                 <div class="pac_info">
                     <div>${pac.address}</div>
