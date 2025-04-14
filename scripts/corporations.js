@@ -5,7 +5,7 @@ export const DisplayCorporations = async () => {
         return `
             <section class="corporation">
                 <header class="corporation_name">
-                    <h1>${corporation.company}</h1>
+                    <h2>${corporation.company}</h2>
                 </header>
                 <div class="corporation_info">
                     <div>Address: ${corporation.address}</div>
